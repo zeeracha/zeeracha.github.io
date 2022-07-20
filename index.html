@@ -14,11 +14,11 @@
                 <div class="container">
                     <div class="navbar responsiveNavbar">
                         <h1 class="logo">Zeera Ratchadaporn C.</h1>
-                        <div class="nav-links">
-                            <a class="navLink">Home</a>
-                            <a class="navLink">Skills</a>
-                            <a class="navLink">Projects</a>
-                            <a class="navLink">About Me</a>
+                        <div class="nav-links" style="">
+                            <a class="navLink" href="#root">Home</a>
+                            <a class="navLink" href="#skills">Skills</a>
+                            <a class="navLink" href="#projects">Projects</a>
+                            <a class="navLink" href="#aboutMe">About Me</a>
                         </div><div class="">
 
                         </div>
@@ -29,7 +29,7 @@
                             </path>
                         </svg>
                     </div>
-                    <div class="headerMain">
+                    <div class="headerMain" id="Home">
                         <h1 class="intro" style="font-family: 'Inter', sans-serif;">Hi, I am <span class="purple">Zeera Ratchadaporn C.</span> 👋</h1>
                         <h1 class="main">Front End Developer</h1>
                         <p class="bio">I am a Full-Stack Developer student from DEVCAMP, Bangkok. I like to work on exciting projects on Frontend. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem hic itaque soluta sapiente voluptate. Repellat possimus illum, assumenda voluptas, minus ab ducimus et iste, dolorum excepturi enim maiores omnis nesciunt!
@@ -43,6 +43,12 @@
                 ><h1 class="skillsHeader">Take a look at my Skills.</h1>
                 <p class="skillsText" style="text-align:center;">These are my skills and this contains all the technologies and programming languages that I have learnt until now. I am constantly learning, therefore I may update this section more often.</p>
                 <div class="skillList">
+                    <span>
+                        <span>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png">
+                        </span>
+                        <h1>Javascript</h1>
+                    </span>
                     <span>
                         <span>
                             <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png">
@@ -67,12 +73,6 @@
                         </span>
                         <span>
                             <span>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png">
-                            </span>
-                            <h1>Javascript</h1>
-                        </span>
-                        <span>
-                            <span>
                             <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png">
                         </span>
                         <h1>React</h1>
@@ -94,6 +94,18 @@
                             <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
                         </span>
                         <h1>Github</h1>
+                    </span>
+                    <span>
+                        <span>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/trello/trello-plain.svg" >
+                        </span>
+                        <h1>Trello</h1>
+                    </span>
+                    <span>
+                        <span>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/slack/slack-original.svg ">
+                        </span>
+                        <h1>Slack</h1>
                     </span>
                     
                     
@@ -128,7 +140,7 @@
                     <a href="https://project-junga.netlify.app/" target="_blank">
                         <button class="liveWebsiteBtn">Live Website</button>
                     </a>
-                    <a href="https://github.com/shanjairaj7/Project-Junga-Frontend" target="_blank">
+                    <a href="https://github.com/bobow22/Flowaccount" target="_blank">
                         <button class="githubBtn">Github code</button>
                     </a>
                 </div>
@@ -150,7 +162,7 @@
                 <a href="https://react-redux-firebase-discord-clone.netlify.app/" target="_blank">
                     <button class="liveWebsiteBtn">Live Website</button>
                 </a>
-                <a href="https://github.com/shanjairaj7/Discord-Clone-React" target="_blank">
+                <a href="https://github.com/zeeracha/fully_responsive_website" target="_blank">
                     <button class="githubBtn">Github code</button>
                 </a>
             </div>
@@ -160,7 +172,7 @@
         <div><img src="https://github.com/zeeracha/zeeracha.github.io/blob/master/img/movie.png?raw=true"></div>
         <div class="projectDetail">
             <h2>Movie App With API</h2>
-            <p>Blog website that allows user to log in using Google and start searching for &amp; reading interesting blog posts.</p>
+            <p>A website that displays information about movies and series. Users can search and click to see the list of actors and movie trailers.</p>
             <div class="techUsed">
                 <span>JavaScript</span>
                 <span>React</span>
@@ -171,7 +183,7 @@
                 <a href="https://react-redux-googlelogin-blogapp.netlify.app/" target="_blank">
                     <button class="liveWebsiteBtn">Live Website</button>
                 </a>
-                <a href="https://github.com/shanjairaj7/Blog-app" target="_blank">
+                <a href="https://github.com/zeeracha/movie_app" target="_blank">
                     <button class="githubBtn">Github code</button>
                 </a>
             </div>
@@ -185,14 +197,17 @@
             <h2>Weather App</h2>
             <p>An app that displays weather information with pictures when you type a city name in the search box.</p>
             <div class="techUsed">
-                <span>NodeJS</span>
-                <span>GraphQL</span>
-                <span>Apollo</span>
-                <span>Heroku</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>CSS</span>
+                <span>Weather API</span>
             </div>
             <div class="projectBtn">
-                <a href="https://github.com/shanjairaj7/Social-Media-App-Server-GraphQL" target="_blank">
-                    <button class="liveWebsiteBtn">Github Code</button>
+                <a href="https://project-junga.netlify.app/" target="_blank">
+                    <button class="liveWebsiteBtn">Live Website</button>
+                </a>
+                <a href="https://github.com/zeeracha/weather-app" target="_blank">
+                    <button class="githubBtn">Github code</button>
                 </a>
             </div>
         </div>
@@ -205,7 +220,7 @@
         <h1>About Me.</h1>
         <p class="aboutText"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem laborum commodi, at provident repellendus maxime expedita hic consequatur tempore facilis nisi ducimus magni accusamus cumque mollitia rem. Voluptas, inventore explicabo.
             <p class="p4" style="text-align:center; text-decoration: none;">Hi 👋 I am
-                 <a class="mailLink" href="mailto:shanjairajdev@gmail.com" style="text-decoration: none; color: black;">mail.</a>
+                 <a class="mailLink" href="mailto: zeeraratcha@gmail.com" style="text-decoration: none; color: black;">mail.</a>
                  </p>
                 </p>
             </div>
@@ -219,23 +234,13 @@
             <a href="mailto:shanjairajdev@gmail.com" class="buttonActive" style="font-family: 'Inter', sans-serif; color: white; text-decoration: none;">Contact Me</a>
         </div><div>
         </div>
-        <div class="socialMedia"><div>
-            <p class="socialMediaHeader">Social Media</p>
-        </div>
-        <div class="socialMediaLinks">
-            <a href="https://www.youtube.com/channel/UCB8kupV5Sf_Y7EwYSU9JsWg?view_as=subscriber" target="_blank">YouTube</a>
-            <a href="https://twitter.com/shanjai_raj" target="_blank">Twitter</a>
-            <a href="https://www.linkedin.com/in/shanjai-raj-290b631bb/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/shanjairaj7" target="_blank">Github</a>
-        </div>
-    </div>
     <div class="footerLinks">
         <div class="footerLinksHeader">Explore</div>
         <div class="footerLinksLink">
-            <a class="nav-link">Home</a>
-            <a class="nav-link">Skills</a>
-            <a class="nav-link" href="#">Projects</a>
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="#root">Home</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#aboutMe">About Me</a>
         </div>
     </div>
     <div class="footerLinks">
